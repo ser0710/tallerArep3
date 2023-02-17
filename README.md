@@ -1,7 +1,6 @@
-# Taller 2
+# Taller 3
 
-Aplicación que permite leer diferentes archivos locales, entre ellos css, HTML y JavaScript por medio de un servidor web teniendo como base de búsqueda el path suministrado. 
-Dentro de esta se puede acceder aun a la API de consulta de películas.
+Aplicación que accede a ciertos archivos estaticos por medio del uso de una función lambda 
 
 
 ## Getting Started
@@ -20,7 +19,7 @@ Maven: Software que gestiona proyectos java
 Clonamos el repositorio
 
 ```
-git clone https://github.com/ser0710/tallerArep2.git
+git clone https://github.com/ser0710/tallerArep3.git
 ```
 
 Entramos en la carpeta donde se encuentra el pom.xml
@@ -32,10 +31,12 @@ mvn clean package exec:java -D"exec.mainClass"="edu.escuelaing.arep.app.app"
 
 Una vez veamos el mensaje de "Listo para recbir ..."
 entramos al buscador de preferencia
-si buscamos la url http://localhost:35000/web podremos acceder al buscador de 
-peliculas, el cual contiene sus funcionalidades en un archivo JS, cuenta
-con una imagen de ejemplo y un sencillo css. En caso de agregar una url no 
-valida veremos un mensaje de pagina no encontrada.
+si buscamos la url http://localhost:35000/web.html donde podremos ver una 
+pagina html con css incluido y un pequeño fragmento de javascript.
+Los otros archivos disponibles son 404.html, 404.js y web.css
+
+# Running the tests
+
 
 
 ## Built With
